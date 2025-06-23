@@ -31,8 +31,8 @@ public class Restapitest {
 	public void startup()
 	{
 		RestAssured.baseURI="https://dev.mantramedic.com";
-		String reportPath = System.getProperty("user.dir") + "/test-output/extentreport.html";
-		spark = new ExtentSparkReporter(reportPath);
+		//String reportPath = System.getProperty("user.dir") + "/test-output/extentreport.html";
+		spark = new ExtentSparkReporter("test-output/extentreport.html");
 		report=new ExtentReports();
 		report.attachReporter(spark);
 	    spark.config().setDocumentTitle(" Rest Assured Api Automation");

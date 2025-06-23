@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-23T14:57:41 IST" name="Default suite" finished-at="2025-06-23T14:57:48 IST" duration-ms="6516">
+  <suite started-at="2025-06-23T15:44:54 IST" name="Default suite" finished-at="2025-06-23T15:44:59 IST" duration-ms="5496">
     <groups>
     </groups>
-    <test started-at="2025-06-23T14:57:41 IST" name="Default test" finished-at="2025-06-23T14:57:48 IST" duration-ms="6516">
+    <test started-at="2025-06-23T15:44:54 IST" name="Default test" finished-at="2025-06-23T15:44:59 IST" duration-ms="5496">
       <class name="apitest.Restapitest">
-        <test-method is-config="true" signature="startup()[pri:0, instance:apitest.Restapitest@799f10e1]" started-at="2025-06-23T14:57:41 IST" name="startup" finished-at="2025-06-23T14:57:43 IST" duration-ms="1361" status="PASS">
+        <test-method is-config="true" signature="startup()[pri:0, instance:apitest.Restapitest@799f10e1]" started-at="2025-06-23T15:44:54 IST" name="startup" finished-at="2025-06-23T15:44:55 IST" duration-ms="870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startup -->
-        <test-method is-config="true" signature="createtest(java.lang.reflect.Method)[pri:0, instance:apitest.Restapitest@799f10e1]" started-at="2025-06-23T14:57:43 IST" name="createtest" finished-at="2025-06-23T14:57:43 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="createtest(java.lang.reflect.Method)[pri:0, instance:apitest.Restapitest@799f10e1]" started-at="2025-06-23T15:44:55 IST" name="createtest" finished-at="2025-06-23T15:44:55 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createtest -->
-        <test-method signature="customerlogin()[pri:1, instance:apitest.Restapitest@799f10e1]" started-at="2025-06-23T14:57:43 IST" name="customerlogin" finished-at="2025-06-23T14:57:47 IST" duration-ms="4483" status="PASS">
+        <test-method signature="customerlogin()[pri:1, instance:apitest.Restapitest@799f10e1]" started-at="2025-06-23T15:44:55 IST" name="customerlogin" finished-at="2025-06-23T15:44:59 IST" duration-ms="4067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerlogin -->
-        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:apitest.Restapitest@799f10e1]" started-at="2025-06-23T14:57:47 IST" name="resultstatus" finished-at="2025-06-23T14:57:47 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:apitest.Restapitest@799f10e1]" started-at="2025-06-23T15:44:59 IST" name="resultstatus" finished-at="2025-06-23T15:44:59 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultstatus -->
-        <test-method is-config="true" signature="reportend()[pri:0, instance:apitest.Restapitest@799f10e1]" started-at="2025-06-23T14:57:47 IST" name="reportend" finished-at="2025-06-23T14:57:48 IST" duration-ms="594" status="PASS">
+        <test-method is-config="true" signature="reportend()[pri:0, instance:apitest.Restapitest@799f10e1]" started-at="2025-06-23T15:44:59 IST" name="reportend" finished-at="2025-06-23T15:44:59 IST" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportend -->
