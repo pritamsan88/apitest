@@ -35,11 +35,12 @@ public class Restapitest {
 		spark = new ExtentSparkReporter("test-output/extentreport.html");
 		report=new ExtentReports();
 		report.attachReporter(spark);
+		spark.config().setEncoding("utf-8");
 	    spark.config().setDocumentTitle(" Rest Assured Api Automation");
         spark .config().setTheme(Theme.DARK);
         spark.config().setReportName("Rest Assured Api Automation");
         spark.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
-		
+        spark.config().setOfflineMode(true);
 	}
 	@BeforeMethod
 	public void createtest(Method method)
